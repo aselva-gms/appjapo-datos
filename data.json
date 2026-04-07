@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 14,
   "hiragana": [
     {"k": "あ", "r": "a"}, {"k": "い", "r": "i"}, {"k": "う", "r": "u"}, {"k": "え", "r": "e"}, {"k": "お", "r": "o"},
     {"k": "か", "r": "ka"}, {"k": "き", "r": "ki"}, {"k": "く", "r": "ku"}, {"k": "け", "r": "ke"}, {"k": "こ", "r": "ko"},
@@ -7,7 +7,7 @@
     {"k": "た", "r": "ta"}, {"k": "ち", "r": "chi"}, {"k": "つ", "r": "tsu"}, {"k": "て", "r": "te"}, {"k": "と", "r": "to"},
     {"k": "な", "r": "na"}, {"k": "に", "r": "ni"}, {"k": "ぬ", "r": "nu"}, {"k": "ね", "r": "ne"}, {"k": "の", "r": "no"},
     {"k": "は", "r": "ha"}, {"k": "ひ", "r": "hi"}, {"k": "ふ", "r": "fu"}, {"k": "へ", "r": "he"}, {"k": "ほ", "r": "ho"},
-    {"k": "ま", "r": "ma"}, {"k": "み", "r": "mi"}, {"k": "む", "r": "mu"}, {"k": "め", "r": "me"}, {"k": "も", "r": "mo"},
+    {"k": "ま", "r": "ma"}, {"k": "み", "r": "mi"}, {"k": "む", "r": "mu"}, {"k": "me", "r": "me"}, {"k": "も", "r": "mo"},
     {"k": "や", "r": "ya"}, {"k": "ゆ", "r": "yu"}, {"k": "よ", "r": "yo"},
     {"k": "ら", "r": "ra"}, {"k": "り", "r": "ri"}, {"k": "る", "r": "ru"}, {"k": "れ", "r": "re"}, {"k": "ろ", "r": "ro"},
     {"k": "わ", "r": "wa"}, {"k": "を", "r": "wo"}, {"k": "ん", "r": "n"}
@@ -28,9 +28,9 @@
     {"k": "山", "r": "yama", "s": "montaña"}, {"k": "川", "r": "kawa", "s": "rio"}, {"k": "田", "r": "ta", "s": "arrozal"},
     {"k": "人", "r": "hito", "s": "persona"}, {"k": "子", "r": "ko", "s": "niño"}, {"k": "女", "r": "onna", "s": "mujer"},
     {"k": "男", "r": "otoko", "s": "hombre"}, {"k": "大", "r": "dai", "s": "grande"}, {"k": "小", "r": "shou", "s": "pequeño"},
-    {"k": "中", "r": "chuu", "s": "dentro/medio"}, {"k": "上", "r": "ue", "s": "arriba"}, {"k": "下", "r": "shita", "s": "abajo"},
+    {"k": "中", "r": "chuu", "s": "dentro"}, {"k": "上", "r": "ue", "s": "arriba"}, {"k": "下", "r": "shita", "s": "abajo"},
     {"k": "左", "r": "hidari", "s": "izquierda"}, {"k": "右", "r": "migi", "s": "derecha"}, {"k": "前", "r": "mae", "s": "delante"},
-    {"k": "後", "r": "ushiro", "s": "detras"}, {"k": "年", "r": "toshi", "s": "año"}, {"k": "時", "r": "toki", "s": "tiempo/hora"},
+    {"k": "後", "r": "ushiro", "s": "detras"}, {"k": "年", "r": "toshi", "s": "año"}, {"k": "時", "r": "toki", "s": "tiempo"},
     {"k": "見", "r": "mi", "s": "mirar"}
   ],
   "vocabulario": {
@@ -41,16 +41,16 @@
     "COMIDA": [
       {"k": "りんご", "r": "ringo", "s": "manzana"}, {"k": "さかな", "r": "sakana", "s": "pescado"}, {"k": "にく", "r": "niku", "s": "carne"},
       {"k": "たまご", "r": "tamago", "s": "huevo"}, {"k": "やさい", "r": "yasai", "s": "verdura"}, {"k": "くだもの", "r": "kudamono", "s": "fruta"},
-      {"k": "ごはん", "r": "gohan", "s": "comida/arroz"}, {"k": "ぱん", "r": "pan", "s": "pan"}
+      {"k": "ごはん", "r": "gohan", "s": "comida"}, {"k": "ぱん", "r": "pan", "s": "pan"}, {"k": "おちゃ", "r": "ocha", "s": "te"}, {"k": "こーひー", "r": "koohii", "s": "cafe"}
     ],
     "TIEMPO": [
       {"k": "きょう", "r": "kyou", "s": "hoy"}, {"k": "あした", "r": "ashita", "s": "mañana"}, {"k": "きのう", "r": "kinou", "s": "ayer"},
-      {"k": "いま", "r": "ima", "s": "ahora"}, {"k": "じかん", "r": "jikan", "s": "tiempo"}, {"k": "あさ", "r": "asa", "s": "mañana(temprano)"},
-      {"k": "よる", "r": "yoru", "s": "noche"}
+      {"k": "いま", "r": "ima", "s": "ahora"}, {"k": "じかん", "r": "jikan", "s": "tiempo"}, {"k": "あさ", "r": "asa", "s": "mañana temprana"},
+      {"k": "よる", "r": "yoru", "s": "noche"}, {"k": "しゅう", "r": "shuu", "s": "semana"}
     ],
     "CASA": [
       {"k": "いえ", "r": "ie", "s": "casa"}, {"k": "へや", "r": "heya", "s": "habitacion"}, {"k": "べっど", "r": "beddo", "s": "cama"},
-      {"k": "てれび", "r": "terebi", "s": "television"}, {"k": "まど", "r": "mado", "s": "ventana"}
+      {"k": "てれび", "r": "terebi", "s": "television"}, {"k": "まど", "r": "mado", "s": "ventana"}, {"k": "つくえ", "r": "tsukue", "s": "escritorio"}
     ],
     "ANIMALES": [
       {"k": "いぬ", "r": "inu", "s": "perro"}, {"k": "ねこ", "r": "neko", "s": "gato"}, {"k": "とり", "r": "tori", "s": "pajaro"},
@@ -64,43 +64,59 @@
   },
   "conversaciones": [
     {
-      "titulo": "SALUDOS BASICOS",
+      "titulo": "PRESENTACIÓN TRABAJO",
       "frases": [
-        {"autor": "yo", "es": "Buenos dias.", "jp": "Ohayou gozaimasu"},
-        {"autor": "meruem", "es": "Buenos dias. ¿Como estas?", "jp": "Ohayou. Ogenki desu ka"},
-        {"autor": "yo", "es": "Estoy bien, gracias.", "jp": "Genki desu, arigatou"}
+        {"autor": "jefe", "es": "Buenos días. Este es el señor Adrián.", "jp": "Ohayou gozaimasu. Kochira wa Adrian-san desu"},
+        {"autor": "yo", "es": "Encantado de conocerte. Soy de España. Mucho gusto.", "jp": "Hajimemashite. Supein kara kimashita. Douzo yoroshiku"},
+        {"autor": "compañero", "es": "Mucho gusto, soy Tanaka. Bienvenido.", "jp": "Tanaka desu. Douzo yoroshiku. Irasshai"},
+        {"autor": "yo", "es": "Muchas gracias. Perdón, ¿dónde está mi mesa?", "jp": "Arigatou gozaimasu. Sumimasen, watashi no tsukue wa doko desu ka"}
       ]
     },
     {
-      "titulo": "EN LA ESCUELA",
+      "titulo": "QUEDANDO AMIGOS",
       "frases": [
-        {"autor": "profesor", "es": "Buenos dias alumnos. Vamos a empezar.", "jp": "Ohayou. Hajimemashou"},
-        {"autor": "yo", "es": "Perdone, ¿puedo entrar?", "jp": "Sumimasen. Haittemo ii desu ka"},
-        {"autor": "profesor", "es": "Si, adelante. Sientate por favor.", "jp": "Hai, douzo. Suwatte kudasai"}
+        {"autor": "amigo", "es": "Adrián, ¿qué vas a hacer mañana?", "jp": "Adrian-san, ashita nani o shimasu ka"},
+        {"autor": "yo", "es": "Voy a ir a Akihabara con un amigo.", "jp": "Tomodachi to Akihabara e ikimasu"},
+        {"autor": "amigo", "es": "¿A qué hora vas a ir?", "jp": "Nanji ni ikimasu ka"},
+        {"autor": "yo", "es": "Voy a ir a las diez de la mañana.", "jp": "Gozen juuji ni ikimasu"},
+        {"autor": "amigo", "es": "Entiendo. ¡Pásalo bien!", "jp": "Wakarimashita. Tanoshinde kudasai"}
       ]
     },
     {
-      "titulo": "COMPRANDO ROPA",
+      "titulo": "EN UN IZAKAYA",
       "frases": [
-        {"autor": "yo", "es": "Perdone, ¿cuanto cuesta esto?", "jp": "Sumimasen, kore wa ikura desu ka"},
-        {"autor": "vendedor", "es": "Cuesta tres mil yenes.", "jp": "Sanzen en desu"},
-        {"autor": "yo", "es": "Es un poco caro. Lo siento.", "jp": "Chotto takai desu. Sumimasen"}
+        {"autor": "yo", "es": "Perdone, tráigame el menú por favor.", "jp": "Sumimasen, menyuu o onegaishimasu"},
+        {"autor": "camarero", "es": "Sí, aquí tiene. ¿Qué desea beber?", "jp": "Hai, douzo. Nani o nomimasu ka"},
+        {"autor": "yo", "es": "Dos cervezas y un té verde por favor.", "jp": "Biiru o futatsu to ocha o onegaishimasu"},
+        {"autor": "camarero", "es": "Entendido. ¿Y de comer?", "jp": "Wakarimashita. Otabemono wa"},
+        {"autor": "yo", "es": "Yakitori por favor. ¿Cuánto cuesta todo?", "jp": "Yakitori o onegaishimasu. Zenbu de ikura desu ka"}
       ]
     },
     {
-      "titulo": "HABLANDO DEL CLIMA",
+      "titulo": "SUPERMERCADO",
       "frases": [
-        {"autor": "meruem", "es": "Hoy hace buen tiempo, ¿verdad?", "jp": "Kyou wa ii tenki desu ne"},
-        {"autor": "yo", "es": "Si, hace calor.", "jp": "Hai, atsui desu ne"},
-        {"autor": "meruem", "es": "Mañana llovera.", "jp": "Ashita wa ame ga furimasu"}
+        {"autor": "yo", "es": "Perdone, ¿dónde está la leche?", "jp": "Sumimasen, gyuunyuu wa doko desu ka"},
+        {"autor": "empleado", "es": "Está allí, al lado del pan.", "jp": "Asoko desu. Pan no tonari desu"},
+        {"autor": "yo", "es": "Muchas gracias. ¿Tiene bolsas?", "jp": "Arigatou gozaimasu. Fukuro wa arimasu ka"},
+        {"autor": "empleado", "es": "Sí, cuestan cinco yenes.", "jp": "Hai, go-en desu"},
+        {"autor": "yo", "es": "Está bien, póngame una por favor.", "jp": "Wakarimashita. Hitotsu onegaishimasu"}
       ]
     },
     {
-      "titulo": "PEDIR DIRECCION",
+      "titulo": "HABLANDO TELÉFONO",
       "frases": [
-        {"autor": "yo", "es": "Perdone, ¿donde esta la estacion?", "jp": "Sumimasen, eki wa doko desu ka"},
-        {"autor": "meruem", "es": "Esta recto por aqui.", "jp": "Kono michi o massugu desu"},
-        {"autor": "yo", "es": "Muchas gracias.", "jp": "Doumo arigatou gozaimashita"}
+        {"autor": "yo", "es": "Diga, ¿es la casa del señor Tanaka?", "jp": "Moshimoshi, Tanaka-san no otaku desu ka"},
+        {"autor": "tanaka", "es": "Sí, soy Tanaka. ¡Hola Adrián!", "jp": "Hai, Tanaka desu. Adrian-san, konnichiwa"},
+        {"autor": "yo", "es": "Hola. ¿Quieres ir al cine este domingo?", "jp": "Konnichiwa. Konshuu no nichiyoubi ni eiga o mimasen ka"},
+        {"autor": "tanaka", "es": "Lo siento, el domingo estoy ocupado.", "jp": "Sumimasen, nichiyoubi wa chotto isogashii desu"},
+        {"autor": "yo", "es": "Ah, entiendo. Entonces, hasta la próxima.", "jp": "Aa, wakarimashita. Mata kondo"}
+      ]
+    },
+    {
+      "titulo": "PIDIENDO DIRECCIÓN",
+      "frases": [
+        {"autor": "yo", "es": "Buenas tardes, soy Adrián, soy extranjero y me gustaría saber dónde está la estación por favor.", "jp": "Konbanwa, Adrian desu. Gaikokujin desu ga, eki wa doko desu ka. Onegaishimasu"},
+        {"autor": "meruem", "es": "Buenas tardes, soy Meruem. Esa estación está al final de esta calle.", "jp": "Konbanwa, Meruem desu. Sono eki wa kono michi no saki ni arimasu"}
       ]
     }
   ]
