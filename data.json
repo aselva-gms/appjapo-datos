@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 10,
   "hiragana": [
     {"k": "あ", "r": "a"}, {"k": "い", "r": "i"}, {"k": "う", "r": "u"}, {"k": "え", "r": "e"}, {"k": "お", "r": "o"},
     {"k": "か", "r": "ka"}, {"k": "き", "r": "ki"}, {"k": "く", "r": "ku"}, {"k": "け", "r": "ke"}, {"k": "こ", "r": "ko"},
@@ -15,33 +15,32 @@
   "katakana": [
     {"k": "ア", "r": "a"}, {"k": "イ", "r": "i"}, {"k": "ウ", "r": "u"}, {"k": "エ", "r": "e"}, {"k": "オ", "r": "o"},
     {"k": "カ", "r": "ka"}, {"k": "キ", "r": "ki"}, {"k": "ク", "r": "ku"}, {"k": "ケ", "r": "ke"}, {"k": "コ", "r": "ko"},
-    {"k": "サ", "r": "sa"}, {"k": "シ", "r": "shi"}, {"k": "ス", "r": "su"}, {"k": "セ", "r": "se"}, {"k": "ソ", "r": "so"},
-    {"k": "タ", "r": "ta"}, {"k": "チ", "r": "chi"}, {"k": "ツ", "r": "tsu"}, {"k": "テ", "r": "te"}, {"k": "ト", "r": "to"},
-    {"k": "ナ", "r": "na"}, {"k": "ニ", "r": "ni"}, {"k": "ヌ", "r": "nu"}, {"k": "ネ", "r": "ne"}, {"k": "ノ", "r": "no"}
+    {"k": "サ", "r": "sa"}, {"k": "し", "r": "shi"}, {"k": "ス", "r": "su"}, {"k": "セ", "r": "se"}, {"k": "ソ", "r": "so"}
   ],
   "kanji": [
     {"k": "一", "r": "ichi", "s": "uno"}, {"k": "二", "r": "ni", "s": "dos"}, {"k": "三", "r": "san", "s": "tres"},
     {"k": "四", "r": "yon", "s": "cuatro"}, {"k": "五", "r": "go", "s": "cinco"}, {"k": "六", "r": "roku", "s": "seis"},
     {"k": "七", "r": "nana", "s": "siete"}, {"k": "八", "r": "hachi", "s": "ocho"}, {"k": "九", "r": "kyuu", "s": "nueve"},
     {"k": "十", "r": "juu", "s": "diez"}, {"k": "百", "r": "hyaku", "s": "cien"}, {"k": "千", "r": "sen", "s": "mil"},
-    {"k": "万", "r": "man", "s": "diez mil"}, {"k": "円", "r": "en", "s": "yen"}, {"k": "日", "r": "hi", "s": "dia"},
-    {"k": "月", "r": "tsuki", "s": "luna"}, {"k": "火", "r": "hi", "s": "fuego"}, {"k": "水", "r": "mizu", "s": "agua"},
-    {"k": "木", "r": "ki", "s": "arbol"}, {"k": "金", "r": "kane", "s": "oro"}, {"k": "土", "r": "tsuchi", "s": "tierra"}
+    {"k": "万", "r": "man", "s": "diez mil"}, {"k": "円", "r": "en", "s": "yen"},
+    {"k": "日", "r": "hi", "s": "sol/dia"}, {"k": "月", "r": "tsuki", "s": "luna/mes"}, {"k": "火", "r": "hi", "s": "fuego"},
+    {"k": "水", "r": "mizu", "s": "agua"}, {"k": "木", "r": "ki", "s": "arbol"}, {"k": "金", "r": "kane", "s": "oro/dinero"},
+    {"k": "土", "r": "tsuchi", "s": "tierra"}, {"k": "山", "r": "yama", "s": "montaña"}, {"k": "川", "r": "kawa", "s": "rio"},
+    {"k": "田", "r": "ta", "s": "arrozal"}, {"k": "人", "r": "hito", "s": "persona"}, {"k": "子", "r": "ko", "s": "niño"},
+    {"k": "女", "r": "onna", "s": "mujer"}, {"k": "男", "r": "otoko", "s": "hombre"}, {"k": "父", "r": "chichi", "s": "padre"},
+    {"k": "母", "r": "haha", "s": "madre"}, {"k": "先", "r": "saki", "s": "antes"}, {"k": "生", "r": "sei", "s": "vida"},
+    {"k": "学", "r": "gaku", "s": "estudio"}, {"k": "校", "r": "kou", "s": "escuela"}, {"k": "上", "r": "ue", "s": "arriba"},
+    {"k": "下", "r": "shita", "s": "abajo"}, {"k": "左", "r": "hidari", "s": "izquierda"}, {"k": "右", "r": "migi", "s": "derecha"}
   ],
   "vocabulario": [
-    {"k": "こんにちは", "r": "konnichiwa", "s": "hola"},
-    {"k": "ありがとう", "r": "arigatou", "s": "gracias"},
-    {"k": "たべる", "r": "taberu", "s": "comer"},
-    {"k": "のむ", "r": "nomu", "s": "beber"},
-    {"k": "ねる", "r": "neru", "s": "dormir"},
-    {"k": "いく", "r": "iku", "s": "ir"},
-    {"k": "くる", "r": "kuru", "s": "venir"},
-    {"k": "みず", "r": "mizu", "s": "agua"},
-    {"k": "おちゃ", "r": "ocha", "s": "te"},
-    {"k": "ごはん", "r": "gohan", "s": "comida"},
-    {"k": "せんせい", "r": "sensei", "s": "profesor"},
-    {"k": "がくせい", "r": "gakusei", "s": "estudiante"},
-    {"k": "ともだち", "r": "tomodachi", "s": "amigo"}
+    {"k": "あか", "r": "aka", "s": "rojo"}, {"k": "あお", "r": "ao", "s": "azul"}, {"k": "しろ", "r": "shiro", "s": "blanco"},
+    {"k": "くろ", "r": "kuro", "s": "negro"}, {"k": "きいろ", "r": "kiiro", "s": "amarillo"}, {"k": "みどり", "r": "midori", "s": "verde"},
+    {"k": "りんご", "r": "ringo", "s": "manzana"}, {"k": "さかな", "r": "sakana", "s": "pescado"}, {"k": "にく", "r": "niku", "s": "carne"},
+    {"k": "たまご", "r": "tamago", "s": "huevo"}, {"k": "やさい", "r": "yasai", "s": "verdura"}, {"k": "くだもの", "r": "kudamono", "s": "fruta"},
+    {"k": "みず", "r": "mizu", "s": "agua"}, {"k": "おちゃ", "r": "ocha", "s": "te"}, {"k": "ぎゅうにゅう", "r": "gyuunyuu", "s": "leche"},
+    {"k": "きょう", "r": "kyou", "s": "hoy"}, {"k": "あした", "r": "ashita", "s": "mañana"}, {"k": "きのう", "r": "kinou", "s": "ayer"},
+    {"k": "いま", "r": "ima", "s": "ahora"}, {"k": "じかん", "r": "jikan", "s": "tiempo"}, {"k": "いえ", "r": "ie", "s": "casa"},
+    {"k": "へや", "r": "heya", "s": "habitacion"}, {"k": "くるま", "r": "kuruma", "s": "coche"}, {"k": "でんしゃ", "r": "densha", "s": "tren"}
   ],
   "conversaciones": [
     {
@@ -58,13 +57,6 @@
         {"autor": "camarero", "es": "Bienvenido. ¿Qué desea tomar?", "jp": "Irasshaimase. Nani o nomimasu ka"},
         {"autor": "yo", "es": "Un agua y un café, por favor.", "jp": "Mizu to koohii o onegaishimasu"},
         {"autor": "camarero", "es": "Entendido. Un momento por favor.", "jp": "Wakarimashita. Chotto matte kudasai"}
-      ]
-    },
-    {
-      "titulo": "PIDIENDO UNA DIRECCIÓN",
-      "frases": [
-        {"autor": "yo", "es": "Buenas tardes, soy Adrián, soy extranjero y me gustaría saber dónde está la estación por favor.", "jp": "Konbanwa, Adrian desu. Gaikokujin desu ga, eki wa doko desu ka. Onegaishimasu"},
-        {"autor": "meruem", "es": "Buenas tardes, soy Meruem. Esa estación está al final de esta calle.", "jp": "Konbanwa, Meruem desu. Sono eki wa kono michi no saki ni arimasu"}
       ]
     }
   ]
