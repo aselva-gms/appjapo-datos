@@ -1,19 +1,25 @@
 {
-  "version": 4,
+  "version": 6,
+  "hiragana": [
+    {"k": "あ", "r": "a"}, {"k": "い", "r": "i"}, {"k": "う", "r": "u"}, {"k": "え", "r": "e"}, {"k": "お", "r": "o"}, {"k": "か", "r": "ka"}, {"k": "き", "r": "ki"}, {"k": "く", "r": "ku"}, {"k": "け", "r": "ke"}, {"k": "こ", "r": "ko"}
+  ],
+  "katakana": [
+    {"k": "ア", "r": "a"}, {"k": "イ", "r": "i"}, {"k": "ウ", "r": "u"}, {"k": "エ", "r": "e"}, {"k": "オ", "r": "o"}, {"k": "カ", "r": "ka"}, {"k": "キ", "r": "ki"}, {"k": "ク", "r": "ku"}, {"k": "ケ", "r": "ke"}, {"k": "コ", "r": "ko"}
+  ],
+  "kanji": [
+    {"k": "一", "r": "ichi", "s": "uno"},
+    {"k": "二", "r": "ni", "s": "dos"}
+  ],
+  "vocabulario": [
+    {"k": "たべます", "r": "tabemasu", "s": "comer"},
+    {"k": "のみます", "r": "nomimasu", "s": "beber"}
+  ],
   "conversaciones": [
     {
-      "titulo": "PIDIENDO UNA DIRECCIÓN",
+      "titulo": "PEDIENDO UNA DIRECCIÓN",
       "frases": [
-        {
-          "autor": "yo",
-          "es": "Buenas tardes, soy Adrián, soy extranjero y me gustaría saber dónde está la estación por favor.",
-          "jp": "Konbanwa, Adrian desu. Gaikokujin desu ga, eki wa doko desu ka. Onegaishimasu"
-        },
-        {
-          "autor": "meruem",
-          "es": "Buenas tardes, soy Meruem. Esa estación está al final de esta calle.",
-          "jp": "Konbanwa, Meruem desu. Sono eki wa kono michi no saki ni arimasu"
-        }
+        {"autor": "yo", "es": "Buenas tardes, soy Adrián, soy extranjero y me gustaría saber dónde está la estación por favor.", "jp": "Konbanwa, Adrian desu. Gaikokujin desu ga, eki wa doko desu ka. Onegaishimasu"},
+        {"autor": "meruem", "es": "Buenas tardes, soy Meruem. Esa estación está al final de esta calle.", "jp": "Konbanwa, Meruem desu. Sono eki wa kono michi no saki ni arimasu"}
       ]
     }
   ]
