@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "saludos": [
+    {"jp": "Kon'nichiwa", "es": "Hola"},
+    {"jp": "Sayōnara", "es": "Adiós"}
+  ]
+}
