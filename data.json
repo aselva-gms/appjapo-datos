@@ -11,5 +11,7 @@
       ]
     }
   ],
-  "vocabulario_nube": []
+  "saludos": [
+    {"jp": "Kon'nichiwa", "es": "Hola"}
+  ]
 }
