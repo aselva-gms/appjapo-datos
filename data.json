@@ -1,17 +1,12 @@
 {
-  "version": 2,
+  "version": 3,
   "conversaciones": [
     {
       "titulo": "PIDIENDO UNA DIRECCIÓN",
       "frases": [
-        {"es": "Buenas tardes", "jp": "Konbanwa"},
-        {"es": "Soy un turista", "jp": "Watashi wa kankoukyaku desu"},
-        {"es": "Mi nombre es Adrian", "jp": "Watashi no namae wa Adrian desu"},
-        {"es": "Indíqueme dónde está la estación por favor", "jp": "Eki wa doko desu ka"}
+        {"autor": "yo", "es": "Buenas tardes, soy Adrián, soy extranjero y me gustaría saber dónde está la estación.", "jp": "Konbanwa, Adrian desu. Kankoukyaku desu ga, eki wa doko desu ka"},
+        {"autor": "nativo", "es": "Buenas tardes, soy Meruem, esa estación está al final de la calle.", "jp": "Konbanwa, Meruem desu. Sono eki wa michi no saki ni arimasu"}
       ]
     }
-  ],
-  "saludos": [
-    {"jp": "Kon'nichiwa", "es": "Hola"}
   ]
 }
