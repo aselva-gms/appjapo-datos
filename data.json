@@ -33,7 +33,6 @@
     {"k": "後", "r": "ushiro", "s": "detras"}, {"k": "年", "r": "toshi", "s": "año"}, {"k": "時", "r": "toki", "s": "tiempo"},
     {"k": "見", "r": "mi", "s": "mirar"}
   ],
- {
   "vocabulario": {
     "COLORES": [
       {"k": "あか", "r": "aka", "s": "rojo"},
@@ -226,9 +225,7 @@
       {"k": "つくる", "r": "tsukuru", "s": "hacer/fabricar"},
       {"k": "とる", "r": "toru", "s": "tomar (fotos/objetos)"},
       {"k": "あらわす", "r": "arawasu", "s": "mostrar/expresar"}
-    ]
-  }
-}
+    ],
   "conversaciones": [
     {
       "titulo": "PRESENTACIÓN TRABAJO",
