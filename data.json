@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "hiragana": [
     {"k": "あ", "r": "a"}, {"k": "い", "r": "i"}, {"k": "う", "r": "u"}, {"k": "え", "r": "e"}, {"k": "お", "r": "o"},
     {"k": "か", "r": "ka"}, {"k": "き", "r": "ki"}, {"k": "く", "r": "ku"}, {"k": "け", "r": "ke"}, {"k": "こ", "r": "ko"},
@@ -226,6 +226,7 @@
       {"k": "とる", "r": "toru", "s": "tomar (fotos/objetos)"},
       {"k": "あらわす", "r": "arawasu", "s": "mostrar/expresar"}
     ],
+   },
   "conversaciones": [
     {
       "titulo": "PRESENTACIÓN TRABAJO",
