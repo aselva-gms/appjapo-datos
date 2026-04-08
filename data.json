@@ -225,8 +225,8 @@
       {"k": "つくる", "r": "tsukuru", "s": "hacer/fabricar"},
       {"k": "とる", "r": "toru", "s": "tomar (fotos/objetos)"},
       {"k": "あらわす", "r": "arawasu", "s": "mostrar/expresar"}
-    ],
-   }
+    ]
+   },
   "conversaciones": [
     {
       "titulo": "PRESENTACIÓN TRABAJO",
